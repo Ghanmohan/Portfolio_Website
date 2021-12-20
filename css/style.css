@@ -696,6 +696,55 @@ background-color: rgba(0,0,0,0.5);
 
 /* Contact Section */
 
+.contactme {
+	font-family: "Inconsolata", monospace;
+  }
+  
+  .contactme img {
+	margin-top: 100px;
+	height: 55%;
+  }
+  
+  .contactme form {
+	margin-top: 100px;
+  }
+  
+  .contactme h1 {
+	font-family: "Inconsolata", monospace;
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: 900;
+	padding-top: 100px;
+	padding-bottom: 30px;
+  }
+  
+  .contactme .form-group input,
+  .contactme .form-group textarea {
+	border-radius: 10px;
+	font-family: "Inconsolata", monospace;
+	font-size: 16px;
+	background-color: transparent;
+	height: 50px;
+  }
+  
+  .contactme .form-group textarea {
+	height: 100px;
+  }
+  
+  .contactme .form-group input:focus,
+  .contactme .form-group textarea:focus {
+	border-color: #f8c246;
+  }
+  
+  .contactme .btnsubmit {
+	margin-top: 20px;
+	font-family: "Inconsolata", monospace;
+	border-radius: 50px;
+	font-size: 16px;
+	background: linear-gradient(to right, #f8c246, #f8c245);
+	color: #ffffff;
+  }
+
 .contact-section
 {
 	padding: 80px 0 0;
