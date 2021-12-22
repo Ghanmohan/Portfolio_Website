@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<div class="brand-name" >
-					<a href="RESUME_ghanmohan.pdf" target="_blank">GHANMOHAN</a>
+					<a href="RESUME_ghanmohan.pdf" target="_blank"> GHANMOHAN(RESUME) </a>
 				</div>
 				<div class="nav-toggle">
 					<span></span>
@@ -448,24 +448,6 @@
       crossorigin="anonymous"
     ></script>
 
-	<script>
-		$("#submit-form").submit((e) => {
-		  e.preventDefault();
-		  $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbwvLHdmRVq1safZZmt6RaHwK2YXVu1xN0FA_3bhdw/exec",
-			data: $("#submit-form").serialize(),
-			method: "post",
-			success: function (response) {
-			  alert("Form submitted successfully");
-			  window.location.reload();
-			  //window.location.href="https://google.com"
-			},
-			error: function (err) {
-			  alert("Something Error");
-			},
-		  });
-		});
-	  </script>
 
 	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 	<!-- <script src="js/jquery.min.js"></script> -->
